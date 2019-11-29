@@ -23,9 +23,9 @@ $('#page').creatPage(20,(currentPage)=>{
 4、creatPage方法参数说明
 ```javascript
  /* @param {Number} totle -总页数
- * @param {Function} callFun -回调函数
- * @param {Number} currentP -当前页数
- * @param {Number} small -连续显示的页码个数
+ * @param {Function} callFun -回调函数 （返回当前页码）
+ * @param {Number} currentP -当前页数（可选，默认为1）
+ * @param {Number} small -连续显示的页码个数（可选，默认为5）
  */
 ```
 
