@@ -3,7 +3,7 @@
 #### 使用说明
 1、引入文件
 ```html
-	<link rel="stylesheet" href="./init.css"> <!-- 初始化css  -->
+    <link rel="stylesheet" href="./init.css"> <!-- 初始化css  -->
     <link rel="stylesheet" href="./page.css"><!-- 分页组件样式  -->
     <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script> <!-- jquery.js  -->
     <script src="./pagination.js"></script> <!-- 分页js  -->
