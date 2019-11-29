@@ -1,0 +1,57 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0;
+  }
+  ul,li{list-style: none;}
+  img{border:none;}
+  * {
+    box-sizing: border-box;
+    font-family: MicrosoftYaHei;
+  }
+  a {
+    text-decoration: none;
+  }
+  em,strong{font-weight: normal;}
+  i{font-style: normal;}
+  html, body {
+    background: #eef0f5;
+    color:#333;
+    font-size:16px;
+    min-width:1200px;
+  }
+  
+  .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0
+  }
+
+  input::-webkit-input-placeholder{
+  color:#c0c4cc;
+  }
+  input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c0c4cc;
+  }
+  input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c0c4cc;
+  }
+  input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c0c4cc;
+  }
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }
+  body{
+    padding:50px;
+  }
+  

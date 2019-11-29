@@ -1,0 +1,91 @@
+
+#pageList{
+    text-align: center;
+    cursor: default;
+    font-weight: 700;
+}
+#pageList button{
+    margin: 0 5px;
+    background-color: #f4f4f5;
+    color: #606266;
+    min-width: 30px;
+    border-radius: 2px;
+    background-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: top;
+    border:none;
+    outline: none; 
+}
+#pageList .el-icon{
+    font-size: 20px;
+    line-height: 23px;
+}
+#pageList .more-left,#pageList .more-right{
+    position: relative;
+}
+#pageList .el-icon-more{
+    position: absolute;
+    top: -3px;
+    left: 9px;
+}
+#pageList .el-icon-more:before {
+    content: "\2026";
+}
+#pageList .el-icon-arrow-left:before{
+    content: "\2039";
+    color: #606266;
+}
+#pageList .el-icon-arrow-right:before{
+    content: "\203a";
+    color: #606266;
+}
+#pageList .el-pager{
+    display: inline-block;
+    
+}
+#pageList .el-pager li{
+    margin: 0 5px;
+    background-color: #f4f4f5;
+    color: #606266;
+    min-width: 30px;
+    border-radius: 2px;
+    padding: 0 4px;
+    background: #fff;
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'MicrosoftYaHei';
+    float: left;
+}
+#pageList .el-pager .active{
+    background-color: #00b38a;
+    color: #fff;
+}
+#pageList .el-pager .active:hover{
+    color:white;
+}
+#pageList .el-pager li:hover {
+    color: #00b38a;
+}
+#pageList .more-left:hover .el-icon-more:before{
+    content: "\226A";
+}
+#pageList .more-right:hover .el-icon-more:before{
+    content: "\226B";
+}
+#pageList .more-left:hover .icon_l{
+    top:-1px;
+    font-size: 12px;
+}
+#pageList .more-right:hover .icon_r{
+    top:-1px;
+    font-size: 12px;
+}
