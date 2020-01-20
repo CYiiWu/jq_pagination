@@ -1,4 +1,10 @@
 
+*{
+    font-family: MicrosoftYaHei;
+}
+i{
+    font-style: normal;
+}
 #pageList{
     text-align: center;
     cursor: default;
